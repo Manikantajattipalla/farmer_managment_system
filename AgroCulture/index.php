@@ -202,17 +202,19 @@ require 'menu.php';
                             </div>
                         </div>
                         <div class="row uniform">
-                            <p>
+                            <!-- <p>
                                 <b>Category : </b>
-                            </p>
-                            <div class="3u 12u$(small)">
+                            </p> -->
+                            <!-- <div class="3u 12u$(small)">
                                 <input type="radio" id="farmerSignUp" name="category" value="1" checked>
                                 <label for="farmerSignUp">Farmer</label>
-                            </div>
-                            <div class="3u 12u$(small)">
+                            </div> -->
+
+							<input type="hidden" name="category" value="1">
+                            <!-- <div class="3u 12u$(small)">
                                 <input type="radio" id="buyerSignUp" name="category" value="0">
                                 <label for="buyerSignUp">Buyer</label>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row uniform">
                             <div class="3u 12u$(small)">
