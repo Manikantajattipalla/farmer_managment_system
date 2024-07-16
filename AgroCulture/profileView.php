@@ -48,10 +48,10 @@
             </header>
             <div class="row">
                 <div class="col-sm-3"></div>
-                <div class="col-sm-3">
+                <!-- <div class="col-sm-3">
                     <b><font size="+1" color="black">RATINGS : </font></b>
                     <font size="+1"><?php echo htmlspecialchars($_SESSION['Rating']); ?></font>
-                </div>
+                </div> -->
                 <div class="col-sm-3">
                     <b><font size="+1" color="black">Email ID : </font></b>
                     <font size="+1"><?php echo htmlspecialchars($_SESSION['Email']); ?></font>
@@ -72,23 +72,21 @@
                 <div class="col-sm-3"></div>
             </div>
             <div class="12u$">
-                <center>
-                    <div class="row uniform">
-                        <div class="3u 12u$(large)">
-                            <a href="changePassPage.php" class="btn btn-danger" style="text-decoration: none;">Change Password</a>
-                        </div>
-                        <div class="3u 12u$(large)">
-                            <a href="profileEdit.php" class="btn btn-danger" style="text-decoration: none;">Edit Profile</a>
-                        </div>
-                        <div class="3u 12u$(xsmall)">
-                            <a href="uploadProduct.php" class="btn btn-danger" style="text-decoration: none;">Upload Product</a>
-                        </div>
-                        <div class="3u 12u$(large)">
-                            <a href="Login/logout.php" class="btn btn-danger" style="text-decoration: none;">LOG OUT</a>
-                        </div>
-                    </div>
-                </center>
+    <center>
+        <div class="row uniform" style="display: flex; justify-content: center; text-align: center;">
+            <!-- <div class="3u 12u$(large)" style="margin-bottom: 10px;">
+                <a href="changePassPage.php" class="btn btn-danger" style="text-decoration: none;">Change Password</a>
+            </div> -->
+            <div class="3u 12u$(xsmall)" style="margin-bottom: 10px;">
+                <a href="uploadProduct.php" class="btn btn-danger" style="text-decoration: none;">Upload Product</a>
             </div>
+            <div class="3u 12u$(large)" style="margin-bottom: 10px;">
+                <a href="Login/logout.php" class="btn btn-danger" style="text-decoration: none;">LOG OUT</a>
+            </div>
+        </div>
+    </center>
+</div>
+
         </div>
     </div>
 </section>

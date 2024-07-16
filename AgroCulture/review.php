@@ -56,7 +56,7 @@
 								</div><!-- Image of farmer-->
 								<div class="col-12 col-sm-6">
 									<p style="font: 50px Times new roman;"><?= $row['product']; ?></p>
-									<p style="font: 30px Times new roman;">Product Owner : <?= $frow['fname']; ?></p>
+									<!-- <p style="font: 30px Times new roman;">Product Owner : <?= $frow['fname']; ?></p> -->
 									<p style="font: 30px Times new roman;">Price : <?= $row['price'].' /-'; ?></p>
 								</div>
 							</div><br />

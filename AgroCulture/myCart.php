@@ -81,13 +81,21 @@
 							<blockquote><?php echo "Type : ".$row1['pcat'].'';?><br><?php echo "Price : ".$row1['price'].' /-';?><br></blockquote>
 
 						</section>
+
+						
 						</div>
+						
 
                     <?php endwhile;	?>
 
 
 
 					</div>
+					<center>
+					<div class="6u 12u$(large)">
+                                        <a href="buyNow.php?pid=<?= $pid; ?>" class="btn btn-primary" style="text-decoration: none;">Buy Now</a>
+                                    </div>
+									</center>
 
 			</section>
 					</header>

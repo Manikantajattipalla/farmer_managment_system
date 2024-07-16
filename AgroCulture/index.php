@@ -133,17 +133,18 @@ require 'menu.php';
                     </div>
                 </div>
                 <div class="row uniform">
-                    <p>
+                    <!-- <p>
                         <b>Category : </b>
-                    </p>
-                    <div class="3u 12u$(small)">
+                    </p> -->
+					<input type="hidden" name="category" value="1">
+                    <!-- <div class="3u 12u$(small)">
                         <input type="radio" id="farmer" name="category" value="1" checked>
                         <label for="farmer">Farmer</label>
                     </div>
                     <div class="3u 12u$(small)">
                         <input type="radio" id="buyerLogin" name="category" value="0">
                         <label for="buyerLogin">Buyer</label>
-                    </div>
+                    </div> -->
                 </div>
                 <center>
                     <div class="row uniform">
